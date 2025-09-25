@@ -1,8 +1,10 @@
 <?php
-
-
-
+require_once("../autoloader.php");
+require_once("../routes/web.php")
 ?>
+
+
+
 
 
 <!DOCTYPE html>
@@ -14,13 +16,20 @@
     <title>Pagina principal</title>
     <link rel="stylesheet" href="style.css">
 
+
+
+
+</head>
+
+<body>
+
     <div class="box">
         <div class="menu-nav">
             <H4>Menu de navegacion</H4>
             <ul>
-                <li><a href="./inicio.php">Inicio</a></li>
-                <li><a href="./lang.php">Mi lenguaje favorito</a></li>
-                <li><a href="./contacto.php">Contactar</a></li>
+                <li><a href="/mvc/public/inicio">Inicio</a></li>
+                <li><a href="/mvc/public/lang">Mi lenguaje favorito</a></li>
+                <li><a href="/mvc/public/contacto">Contactar</a></li>
             </ul>
         </div>
 
@@ -29,11 +38,6 @@
         </div>
 
     </div>
-
-
-</head>
-
-<body>
 
 </body>
 
