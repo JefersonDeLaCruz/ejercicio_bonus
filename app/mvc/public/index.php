@@ -28,7 +28,7 @@ require_once("../routes/web.php")
             <H4>Menu de navegacion</H4>
             <ul>
                 <li><a href="/mvc/public/inicio">Inicio</a></li>
-                <li><a href="/mvc/public/lang">Mi lenguaje favorito</a></li>
+                <li><a href="/mvc/public/lenguaje">Mi lenguaje favorito</a></li>
                 <li><a href="/mvc/public/contacto">Contactar</a></li>
             </ul>
         </div>
